@@ -51,7 +51,6 @@ export default function Dashboard() {
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.98 }}
             exit={{ opacity: 0, y: -10 }}
-            transition={{ duration: 0.3 }}
             // Animate each quote with a staggered effect
   
             initial={{ opacity: 0, y: 10 }}
