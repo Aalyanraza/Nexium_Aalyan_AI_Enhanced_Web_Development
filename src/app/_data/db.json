@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "topic": "inspiration",
+    "label": "Inspiration",
+    "text": "Don't let yesterday take up too much of today.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 2,
+    "topic": "life",
+    "label": "Life",
+    "text": "Life is what happens when you're busy making other plans.",
+    "author": "John Lennon"
+  },
+  {
+    "id": 3,
+    "topic": "motivation",
+    "label": "Motivation",
+    "text": "Push yourself, because no one else is going to do it for you.",
+    "author": "Unknown"
+  },
+  {
+    "id": 4,
+    "topic": "success",
+    "label": "Success",
+    "text": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    "author": "Winston Churchill"
+  },
+  {
+    "id": 5,
+    "topic": "love",
+    "label": "Love",
+    "text": "The best thing to hold onto in life is each other.",
+    "author": "Audrey Hepburn"
+  },
+  {
+    "id": 6,
+    "topic": "wisdom",
+    "label": "Wisdom",
+    "text": "Knowing yourself is the beginning of all wisdom.",
+    "author": "Aristotle"
+  },
+  {
+    "id": 7,
+    "topic": "humor",
+    "label": "Humor",
+    "text": "Behind every great man is a woman rolling her eyes.",
+    "author": "Jim Carrey"
+  },
+  {
+    "id": 8,
+    "topic": "inspiration",
+    "label": "Inspiration",
+    "text": "You are never too old to set another goal or to dream a new dream.",
+    "author": "C.S. Lewis"
+  },
+  {
+    "id": 9,
+    "topic": "life",
+    "label": "Life",
+    "text": "In the end, it's not the years in your life that count. It's the life in your years.",
+    "author": "Abraham Lincoln"
+  },
+  {
+    "id": 10,
+    "topic": "motivation",
+    "label": "Motivation",
+    "text": "The secret of getting ahead is getting started.",
+    "author": "Mark Twain"
+  },
+  {
+    "id": 11,
+    "topic": "success",
+    "label": "Success",
+    "text": "Success usually comes to those who are too busy to be looking for it.",
+    "author": "Henry David Thoreau"
+  },
+  {
+    "id": 12,
+    "topic": "love",
+    "label": "Love",
+    "text": "We accept the love we think we deserve.",
+    "author": "Stephen Chbosky"
+  },
+  {
+    "id": 13,
+    "topic": "wisdom",
+    "label": "Wisdom",
+    "text": "Turn your wounds into wisdom.",
+    "author": "Oprah Winfrey"
+  },
+  {
+    "id": 14,
+    "topic": "humor",
+    "label": "Humor",
+    "text": "I'm not lazy, I'm on energy saving mode.",
+    "author": "Unknown"
+  },
+  {
+    "id": 15,
+    "topic": "inspiration",
+    "label": "Inspiration",
+    "text": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 16,
+    "topic": "life",
+    "label": "Life",
+    "text": "Life is either a daring adventure or nothing at all.",
+    "author": "Helen Keller"
+  },
+  {
+    "id": 17,
+    "topic": "motivation",
+    "label": "Motivation",
+    "text": "The harder you work for something, the greater you'll feel when you achieve it.",
+    "author": "Unknown"
+  },
+  {
+    "id": 18,
+    "topic": "success",
+    "label": "Success",
+    "text": "Don't be afraid to give up the good to go for the great.",
+    "author": "John D. Rockefeller"
+  },
+  {
+    "id": 19,
+    "topic": "love",
+    "label": "Love",
+    "text": "Love is composed of a single soul inhabiting two bodies.",
+    "author": "Aristotle"
+  },
+  {
+    "id": 20,
+    "topic": "wisdom",
+    "label": "Wisdom",
+    "text": "The only true wisdom is in knowing you know nothing.",
+    "author": "Socrates"
+  },
+  {
+    "id": 21,
+    "topic": "humor",
+    "label": "Humor",
+    "text": "I'm not arguing, I'm just explaining why I'm right.",
+    "author": "Unknown"
+  },
+  {
+    "id": 22,
+    "topic": "inspiration",
+    "label": "Inspiration",
+    "text": "Believe you can and you're halfway there.",
+    "author": "Theodore Roosevelt"
+  },
+  {
+    "id": 23,
+    "topic": "life",
+    "label": "Life",
+    "text": "The purpose of our lives is to be happy.",
+    "author": "Dalai Lama"
+  },
+  {
+    "id": 24,
+    "topic": "motivation",
+    "label": "Motivation",
+    "text": "Dream bigger. Do bigger.",
+    "author": "Unknown"
+  },
+  {
+    "id": 25,
+    "topic": "success",
+    "label": "Success",
+    "text": "I find that the harder I work, the more luck I seem to have.",
+    "author": "Thomas Jefferson"
+  },
+  {
+    "id": 26,
+    "topic": "love",
+    "label": "Love",
+    "text": "Love isn't something you find. Love is something that finds you.",
+    "author": "Loretta Young"
+  },
+  {
+    "id": 27,
+    "topic": "wisdom",
+    "label": "Wisdom",
+    "text": "Knowing others is intelligence; knowing yourself is true wisdom.",
+    "author": "Lao Tzu"
+  },
+  {
+    "id": 28,
+    "topic": "humor",
+    "label": "Humor",
+    "text": "I don't need anger management. I need people to stop annoying me.",
+    "author": "Unknown"
+  },
+  {
+    "id": 29,
+    "topic": "inspiration",
+    "label": "Inspiration",
+    "text": "The future belongs to those who believe in the beauty of their dreams.",
+    "author": "Eleanor Roosevelt"
+  },
+  {
+    "id": 30,
+    "topic": "life",
+    "label": "Life",
+    "text": "You only live once, but if you do it right, once is enough.",
+    "author": "Mae West"
+  },
+  {
+    "id": 31,
+    "topic": "motivation",
+    "label": "Motivation",
+    "text": "What you do today can improve all your tomorrows.",
+    "author": "Ralph Marston"
+  },
+  {
+    "id": 32,
+    "topic": "success",
+    "label": "Success",
+    "text": "Success is walking from failure to failure with no loss of enthusiasm.",
+    "author": "Winston Churchill"
+  },
+  {
+    "id": 33,
+    "topic": "love",
+    "label": "Love",
+    "text": "A successful marriage requires falling in love many times, always with the same person.",
+    "author": "Mignon McLaughlin"
+  },
+  {
+    "id": 34,
+    "topic": "wisdom",
+    "label": "Wisdom",
+    "text": "The wise man doesn't give the right answers, he poses the right questions.",
+    "author": "Claude Lévi-Strauss"
+  },
+  {
+    "id": 35,
+    "topic": "humor",
+    "label": "Humor",
+    "text": "I'm not short, I'm concentrated awesome!",
+    "author": "Unknown"
+  },
+  {
+    "id": 36,
+    "topic": "inspiration",
+    "label": "Inspiration",
+    "text": "It always seems impossible until it's done.",
+    "author": "Nelson Mandela"
+  },
+  {
+    "id": 37,
+    "topic": "life",
+    "label": "Life",
+    "text": "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "id": 38,
+    "topic": "motivation",
+    "label": "Motivation",
+    "text": "The key to success is to focus on goals, not obstacles.",
+    "author": "Unknown"
+  },
+  {
+    "id": 39,
+    "topic": "success",
+    "label": "Success",
+    "text": "The road to success and the road to failure are almost exactly the same.",
+    "author": "Colin R. Davis"
+  },
+  {
+    "id": 40,
+    "topic": "love",
+    "label": "Love",
+    "text": "Love is friendship that has caught fire.",
+    "author": "Ann Landers"
+  },
+  {
+    "id": 41,
+    "topic": "wisdom",
+    "label": "Wisdom",
+    "text": "The only real mistake is the one from which we learn nothing.",
+    "author": "Henry Ford"
+  },
+  {
+    "id": 42,
+    "topic": "humor",
+    "label": "Humor",
+    "text": "I'm not procrastinating. I'm just prioritizing my laziness.",
+    "author": "Unknown"
+  },
+  {
+    "id": 43,
+    "topic": "inspiration",
+    "label": "Inspiration",
+    "text": "You miss 100% of the shots you don't take.",
+    "author": "Wayne Gretzky"
+  },
+  {
+    "id": 44,
+    "topic": "life",
+    "label": "Life",
+    "text": "Life is really simple, but we insist on making it complicated.",
+    "author": "Confucius"
+  },
+  {
+    "id": 45,
+    "topic": "motivation",
+    "label": "Motivation",
+    "text": "The secret to getting ahead is getting started.",
+    "author": "Agatha Christie"
+  },
+  {
+    "id": 46,
+    "topic": "success",
+    "label": "Success",
+    "text": "Success is the sum of small efforts, repeated day in and day out.",
+    "author": "Robert Collier"
+  },
+  {
+    "id": 47,
+    "topic": "love",
+    "label": "Love",
+    "text": "The best love is the kind that awakens the soul.",
+    "author": "Nicholas Sparks"
+  },
+  {
+    "id": 48,
+    "topic": "wisdom",
+    "label": "Wisdom",
+    "text": "Wisdom is the reward you get for a lifetime of listening when you'd have preferred to talk.",
+    "author": "Doug Larson"
+  },
+  {
+    "id": 49,
+    "topic": "humor",
+    "label": "Humor",
+    "text": "I'm not arguing, I'm just explaining why I'm right.",
+    "author": "Unknown"
+  },
+  {
+    "id": 50,
+    "topic": "inspiration",
+    "label": "Inspiration",
+    "text": "The only limit to our realization of tomorrow is our doubts of today.",
+    "author": "Franklin D. Roosevelt"
+  },
+  {
+    "id": 51,
+    "topic": "life",
+    "label": "Life",
+    "text": "Life is 10% what happens to us and 90% how we react to it.",
+    "author": "Charles R. Swindoll"
+  },
+  {
+    "id": 52,
+    "topic": "motivation",
+    "label": "Motivation",
+    "text": "Don't watch the clock; do what it does. Keep going.",
+    "author": "Sam Levenson"
+  },
+  {
+    "id": 53,
+    "topic": "success",
+    "label": "Success",
+    "text": "Success isn't about how much money you make, it's about the difference you make in people's lives.",
+    "author": "Michelle Obama"
+  },
+  {
+    "id": 54,
+    "topic": "love",
+    "label": "Love",
+    "text": "Love is when the other person's happiness is more important than your own.",
+    "author": "H. Jackson Brown Jr."
+  },
+  {
+    "id": 55,
+    "topic": "wisdom",
+    "label": "Wisdom",
+    "text": "The fool doth think he is wise, but the wise man knows himself to be a fool.",
+    "author": "William Shakespeare"
+  },
+  {
+    "id": 56,
+    "topic": "humor",
+    "label": "Humor",
+    "text": "I'm not lazy, I'm in energy-saving mode.",
+    "author": "Unknown"
+  },
+  {
+    "id": 57,
+    "topic": "inspiration",
+    "label": "Inspiration",
+    "text": "The best way to predict the future is to invent it.",
+    "author": "Alan Kay"
+  },
+  {
+    "id": 58,
+    "topic": "life",
+    "label": "Life",
+    "text": "The two most important days in your life are the day you are born and the day you find out why.",
+    "author": "Mark Twain"
+  },
+  {
+    "id": 59,
+    "topic": "motivation",
+    "label": "Motivation",
+    "text": "The only place where success comes before work is in the dictionary.",
+    "author": "Vidal Sassoon"
+  },
+  {
+    "id": 60,
+    "topic": "success",
+    "label": "Success",
+    "text": "Success is not the key to happiness. Happiness is the key to success.",
+    "author": "Albert Schweitzer"
+  },
+  {
+    "id": 61,
+    "topic": "love",
+    "label": "Love",
+    "text": "Love does not dominate; it cultivates.",
+    "author": "Johann Wolfgang von Goethe"
+  },
+  {
+    "id": 62,
+    "topic": "wisdom",
+    "label": "Wisdom",
+    "text": "The invariable mark of wisdom is to see the miraculous in the common.",
+    "author": "Ralph Waldo Emerson"
+  },
+  {
+    "id": 63,
+    "topic": "humor",
+    "label": "Humor",
+    "text": "I'm not short, I'm fun-sized!",
+    "author": "Unknown"
+  },
+  {
+    "id": 64,
+    "topic": "inspiration",
+    "label": "Inspiration",
+    "text": "Your time is limited, don't waste it living someone else's life.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 65,
+    "topic": "life",
+    "label": "Life",
+    "text": "Life is like riding a bicycle. To keep your balance, you must keep moving.",
+    "author": "Albert Einstein"
+  },
+  {
+    "id": 66,
+    "topic": "motivation",
+    "label": "Motivation",
+    "text": "The expert in anything was once a beginner.",
+    "author": "Helen Hayes"
+  },
+  {
+    "id": 67,
+    "topic": "success",
+    "label": "Success",
+    "text": "Opportunities don't happen. You create them.",
+    "author": "Chris Grosser"
+  },
+  {
+    "id": 68,
+    "topic": "love",
+    "label": "Love",
+    "text": "Love is an irresistible desire to be irresistibly desired.",
+    "author": "Robert Frost"
+  },
+  {
+    "id": 69,
+    "topic": "wisdom",
+    "label": "Wisdom",
+    "text": "The only way to make sense out of change is to plunge into it, move with it, and join the dance.",
+    "author": "Alan Watts"
+  },
+  {
+    "id": 70,
+    "topic": "humor",
+    "label": "Humor",
+    "text": "I'm not arguing, I'm just passionately expressing my point of view while completely dismissing yours.",
+    "author": "Unknown"
+  },
+  {
+    "id": 71,
+    "topic": "inspiration",
+    "label": "Inspiration",
+    "text": "The only person you are destined to become is the person you decide to be.",
+    "author": "Ralph Waldo Emerson"
+  },
+  {
+    "id": 72,
+    "topic": "life",
+    "label": "Life",
+    "text": "Life isn't about finding yourself. Life is about creating yourself.",
+    "author": "George Bernard Shaw"
+  },
+  {
+    "id": 73,
+    "topic": "motivation",
+    "label": "Motivation",
+    "text": "The only limit to our realization of tomorrow will be our doubts of today.",
+    "author": "Franklin D. Roosevelt"
+  },
+  {
+    "id": 74,
+    "topic": "success",
+    "label": "Success",
+    "text": "Success is not in what you have, but who you are.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 75,
+    "topic": "love",
+    "label": "Love",
+    "text": "Love is the master key that opens the gates of happiness.",
+    "author": "Oliver Wendell Holmes"
+  },
+  {
+    "id": 76,
+    "topic": "wisdom",
+    "label": "Wisdom",
+    "text": "Wisdom is not a product of schooling but of the lifelong attempt to acquire it.",
+    "author": "Albert Einstein"
+  },
+  {
+    "id": 77,
+    "topic": "humor",
+    "label": "Humor",
+    "text": "I'm not lazy, I'm on my energy saving mode.",
+    "author": "Unknown"
+  },
+  {
+    "id": 78,
+    "topic": "inspiration",
+    "label": "Inspiration",
+    "text": "What you get by achieving your goals is not as important as what you become by achieving your goals.",
+    "author": "Zig Ziglar"
+  },
+  {
+    "id": 79,
+    "topic": "life",
+    "label": "Life",
+    "text": "Life is a succession of lessons which must be lived to be understood.",
+    "author": "Ralph Waldo Emerson"
+  },
+  {
+    "id": 80,
+    "topic": "motivation",
+    "label": "Motivation",
+    "text": "The only way to achieve the impossible is to believe it is possible.",
+    "author": "Charles Kingsleigh"
+  },
+  {
+    "id": 81,
+    "topic": "success",
+    "label": "Success",
+    "text": "Success is not just about making money. It's about making a difference.",
+    "author": "Unknown"
+  },
+  {
+    "id": 82,
+    "topic": "love",
+    "label": "Love",
+    "text": "The greatest happiness of life is the conviction that we are loved.",
+    "author": "Victor Hugo"
+  },
+  {
+    "id": 83,
+    "topic": "wisdom",
+    "label": "Wisdom",
+    "text": "Wisdom is the daughter of experience.",
+    "author": "Leonardo da Vinci"
+  },
+  {
+    "id": 84,
+    "topic": "humor",
+    "label": "Humor",
+    "text": "I'm not arguing, I'm just explaining why I'm right.",
+    "author": "Unknown"
+  },
+  {
+    "id": 85,
+    "topic": "inspiration",
+    "label": "Inspiration",
+    "text": "The biggest adventure you can take is to live the life of your dreams.",
+    "author": "Oprah Winfrey"
+  },
+  {
+    "id": 86,
+    "topic": "life",
+    "label": "Life",
+    "text": "Life is short, and it's up to you to make it sweet.",
+    "author": "Sarah Louise Delany"
+  },
+  {
+    "id": 87,
+    "topic": "motivation",
+    "label": "Motivation",
+    "text": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 88,
+    "topic": "success",
+    "label": "Success",
+    "text": "Success is getting what you want. Happiness is wanting what you get.",
+    "author": "Dale Carnegie"
+  },
+  {
+    "id": 89,
+    "topic": "love",
+    "label": "Love",
+    "text": "Love is the flower you've got to let grow.",
+    "author": "John Lennon"
+  },
+  {
+    "id": 90,
+    "topic": "wisdom",
+    "label": "Wisdom",
+    "text": "Wisdom begins in wonder.",
+    "author": "Socrates"
+  },
+  {
+    "id": 91,
+    "topic": "humor",
+    "label": "Humor",
+    "text": "I'm not lazy, I'm just very relaxed.",
+    "author": "Unknown"
+  },
+  {
+    "id": 92,
+    "topic": "inspiration",
+    "label": "Inspiration",
+    "text": "The best revenge is massive success.",
+    "author": "Frank Sinatra"
+  },
+  {
+    "id": 93,
+    "topic": "life",
+    "label": "Life",
+    "text": "Life is a journey that must be traveled no matter how bad the roads and accommodations.",
+    "author": "Oliver Goldsmith"
+  },
+  {
+    "id": 94,
+    "topic": "motivation",
+    "label": "Motivation",
+    "text": "The only place where your dream becomes impossible is in your own thinking.",
+    "author": "Robert H. Schuller"
+  },
+  {
+    "id": 95,
+    "topic": "success",
+    "label": "Success",
+    "text": "Success is the progressive realization of a worthy goal or ideal.",
+    "author": "Earl Nightingale"
+  },
+  {
+    "id": 96,
+    "topic": "love",
+    "label": "Love",
+    "text": "Love is the greatest refreshment in life.",
+    "author": "Pablo Picasso"
+  },
+  {
+    "id": 97,
+    "topic": "wisdom",
+    "label": "Wisdom",
+    "text": "Wisdom is the reward for surviving our own stupidity.",
+    "author": "Brian Rathbone"
+  },
+  {
+    "id": 98,
+    "topic": "humor",
+    "label": "Humor",
+    "text": "I'm not short, I'm just more down to earth than most people.",
+    "author": "Unknown"
+  },
+  {
+    "id": 99,
+    "topic": "inspiration",
+    "label": "Inspiration",
+    "text": "The only thing standing between you and your goal is the story you keep telling yourself.",
+    "author": "Jordan Belfort"
+  },
+  {
+    "id": 100,
+    "topic": "life",
+    "label": "Life",
+    "text": "Life is either a great adventure or nothing.",
+    "author": "Helen Keller"
+  }
+]
