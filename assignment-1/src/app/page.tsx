@@ -6,7 +6,16 @@ import { motion } from 'framer-motion'
 import quotesData from './_data/db.json'
 import { Button } from "@/components/ui/button"
 
-function getRandomQuotes(data, count) {
+// ✅ TypeScript type for a quote
+type Quote = {
+  id: number
+  text: string
+  author: string
+  label: string
+}
+
+// ✅ Function to get N random quotes
+function getRandomQuotes(data: Quote[], count: number): Quote[] {
   const shuffled = [...data]
   for (let i = shuffled.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1))
@@ -16,11 +25,11 @@ function getRandomQuotes(data, count) {
 }
 
 export default function Dashboard() {
-  const [quotes, setQuotes] = useState([])
+  const [quotes, setQuotes] = useState<Quote[]>([])
 
   useEffect(() => {
-    // This only runs on the client
-    setQuotes(getRandomQuotes(quotesData, 3))
+    // ✅ Run only on client to avoid hydration mismatch
+    setQuotes(getRandomQuotes(quotesData as Quote[], 3))
   }, [])
 
   return (
@@ -54,7 +63,6 @@ export default function Dashboard() {
         🌟 Featured Quotes
       </motion.h2>
 
-      {/* Only show when quotes are ready */}
       {quotes.length > 0 && (
         <ul className="space-y-5">
           {quotes.map((quote, index) => (
