@@ -131,4 +131,8 @@ Each quote fades and animates in with a small delay for polish.
 
 ---
 
+<<<<<<< HEAD
 **Built with love using Next.js, TypeScript, and clean design.**
+=======
+**Built with love using Next.js, TypeScript, and clean design.**
+>>>>>>> 07c8a68 (Expanded the database)
