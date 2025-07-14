@@ -698,5 +698,705 @@
     "label": "Life",
     "text": "Life is either a great adventure or nothing.",
     "author": "Helen Keller"
+  },
+  {
+    "id": 101,
+    "topic": "friendship",
+    "label": "Friendship",
+    "text": "A real friend is one who walks in when the rest of the world walks out.",
+    "author": "Walter Winchell"
+  },
+  {
+    "id": 102,
+    "topic": "inspiration",
+    "label": "Inspiration",
+    "text": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 103,
+    "topic": "life",
+    "label": "Life",
+    "text": "Life is 10% what happens to us and 90% how we react to it.",
+    "author": "Charles R. Swindoll"
+  },
+  {
+    "id": 104,
+    "topic": "motivation",
+    "label": "Motivation",
+    "text": "Don't watch the clock; do what it does. Keep going.",
+    "author": "Sam Levenson"
+  },
+  {
+    "id": 105,
+    "topic": "success",
+    "label": "Success",
+    "text": "Success is not the key to happiness. Happiness is the key to success.",
+    "author": "Albert Schweitzer"
+  },
+  {
+    "id": 106,
+    "topic": "love",
+    "label": "Love",
+    "text": "The best thing to hold onto in life is each other.",
+    "author": "Audrey Hepburn"
+  },
+  {
+    "id": 107,
+    "topic": "wisdom",
+    "label": "Wisdom",
+    "text": "Knowing yourself is the beginning of all wisdom.",
+    "author": "Aristotle"
+  },
+  {
+    "id": 108,
+    "topic": "humor",
+    "label": "Humor",
+    "text": "I'm not lazy, I'm on energy saving mode.",
+    "author": "Unknown"
+  },
+  {
+    "id": 109,
+    "topic": "friendship",
+    "label": "Friendship",
+    "text": "Friendship is born at that moment when one person says to another, 'What! You too? I thought I was the only one.'",
+    "author": "C.S. Lewis"
+  },
+  {
+    "id": 110,
+    "topic": "inspiration",
+    "label": "Inspiration",
+    "text": "Believe you can and you're halfway there.",
+    "author": "Theodore Roosevelt"
+  },
+  {
+    "id": 111,
+    "topic": "life",
+    "label": "Life",
+    "text": "In the end, it's not the years in your life that count. It's the life in your years.",
+    "author": "Abraham Lincoln"
+  },
+  {
+    "id": 112,
+    "topic": "motivation",
+    "label": "Motivation",
+    "text": "What you do today can improve all your tomorrows.",
+    "author": "Ralph Marston"
+  },
+  {
+    "id": 113,
+    "topic": "success",
+    "label": "Success",
+    "text": "Success is walking from failure to failure with no loss of enthusiasm.",
+    "author": "Winston Churchill"
+  },
+  {
+    "id": 114,
+    "topic": "love",
+    "label": "Love",
+    "text": "Love is composed of a single soul inhabiting two bodies.",
+    "author": "Aristotle"
+  },
+  {
+    "id": 115,
+    "topic": "wisdom",
+    "label": "Wisdom",
+    "text": "The only true wisdom is in knowing you know nothing.",
+    "author": "Socrates"
+  },
+  {
+    "id": 116,
+    "topic": "humor",
+    "label": "Humor",
+    "text": "I'm not arguing, I'm just explaining why I'm right.",
+    "author": "Unknown"
+  },
+  {
+    "id": 117,
+    "topic": "friendship",
+    "label": "Friendship",
+    "text": "A friend is someone who gives you total freedom to be yourself.",
+    "author": "Jim Morrison"
+  },
+  {
+    "id": 118,
+    "topic": "inspiration",
+    "label": "Inspiration",
+    "text": "The future belongs to those who believe in the beauty of their dreams.",
+    "author": "Eleanor Roosevelt"
+  },
+  {
+    "id": 119,
+    "topic": "life",
+    "label": "Life",
+    "text": "You only live once, but if you do it right, once is enough.",
+    "author": "Mae West"
+  },
+  {
+    "id": 120,
+    "topic": "motivation",
+    "label": "Motivation",
+    "text": "The secret of getting ahead is getting started.",
+    "author": "Mark Twain"
+  },
+  {
+    "id": 121,
+    "topic": "success",
+    "label": "Success",
+    "text": "Success usually comes to those who are too busy to be looking for it.",
+    "author": "Henry David Thoreau"
+  },
+  {
+    "id": 122,
+    "topic": "love",
+    "label": "Love",
+    "text": "We accept the love we think we deserve.",
+    "author": "Stephen Chbosky"
+  },
+  {
+    "id": 123,
+    "topic": "wisdom",
+    "label": "Wisdom",
+    "text": "Turn your wounds into wisdom.",
+    "author": "Oprah Winfrey"
+  },
+  {
+    "id": 124,
+    "topic": "humor",
+    "label": "Humor",
+    "text": "I'm not short, I'm concentrated awesome!",
+    "author": "Unknown"
+  },
+  {
+    "id": 125,
+    "topic": "friendship",
+    "label": "Friendship",
+    "text": "Friends show their love in times of trouble, not in happiness.",
+    "author": "Euripides"
+  },
+  {
+    "id": 126,
+    "topic": "inspiration",
+    "label": "Inspiration",
+    "text": "You are never too old to set another goal or to dream a new dream.",
+    "author": "C.S. Lewis"
+  },
+  {
+    "id": 127,
+    "topic": "life",
+    "label": "Life",
+    "text": "Life is what happens when you're busy making other plans.",
+    "author": "John Lennon"
+  },
+  {
+    "id": 128,
+    "topic": "motivation",
+    "label": "Motivation",
+    "text": "Push yourself, because no one else is going to do it for you.",
+    "author": "Unknown"
+  },
+  {
+    "id": 129,
+    "topic": "success",
+    "label": "Success",
+    "text": "Don't be afraid to give up the good to go for the great.",
+    "author": "John D. Rockefeller"
+  },
+  {
+    "id": 130,
+    "topic": "love",
+    "label": "Love",
+    "text": "Love is friendship that has caught fire.",
+    "author": "Ann Landers"
+  },
+  {
+    "id": 131,
+    "topic": "wisdom",
+    "label": "Wisdom",
+    "text": "The only real mistake is the one from which we learn nothing.",
+    "author": "Henry Ford"
+  },
+  {
+    "id": 132,
+    "topic": "humor",
+    "label": "Humor",
+    "text": "I'm not procrastinating. I'm just prioritizing my laziness.",
+    "author": "Unknown"
+  },
+  {
+    "id": 133,
+    "topic": "friendship",
+    "label": "Friendship",
+    "text": "A single rose can be my garden... a single friend, my world.",
+    "author": "Leo Buscaglia"
+  },
+  {
+    "id": 134,
+    "topic": "inspiration",
+    "label": "Inspiration",
+    "text": "It always seems impossible until it's done.",
+    "author": "Nelson Mandela"
+  },
+  {
+    "id": 135,
+    "topic": "life",
+    "label": "Life",
+    "text": "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "id": 136,
+    "topic": "motivation",
+    "label": "Motivation",
+    "text": "The key to success is to focus on goals, not obstacles.",
+    "author": "Unknown"
+  },
+  {
+    "id": 137,
+    "topic": "success",
+    "label": "Success",
+    "text": "The road to success and the road to failure are almost exactly the same.",
+    "author": "Colin R. Davis"
+  },
+  {
+    "id": 138,
+    "topic": "love",
+    "label": "Love",
+    "text": "The best love is the kind that awakens the soul.",
+    "author": "Nicholas Sparks"
+  },
+  {
+    "id": 139,
+    "topic": "wisdom",
+    "label": "Wisdom",
+    "text": "Wisdom is the reward you get for a lifetime of listening when you'd have preferred to talk.",
+    "author": "Doug Larson"
+  },
+  {
+    "id": 140,
+    "topic": "humor",
+    "label": "Humor",
+    "text": "I'm not arguing, I'm just explaining why I'm right.",
+    "author": "Unknown"
+  },
+  {
+    "id": 141,
+    "topic": "friendship",
+    "label": "Friendship",
+    "text": "True friendship comes when the silence between two people is comfortable.",
+    "author": "David Tyson"
+  },
+  {
+    "id": 142,
+    "topic": "inspiration",
+    "label": "Inspiration",
+    "text": "The only limit to our realization of tomorrow is our doubts of today.",
+    "author": "Franklin D. Roosevelt"
+  },
+  {
+    "id": 143,
+    "topic": "life",
+    "label": "Life",
+    "text": "Life is really simple, but we insist on making it complicated.",
+    "author": "Confucius"
+  },
+  {
+    "id": 144,
+    "topic": "motivation",
+    "label": "Motivation",
+    "text": "Dream bigger. Do bigger.",
+    "author": "Unknown"
+  },
+  {
+    "id": 145,
+    "topic": "success",
+    "label": "Success",
+    "text": "I find that the harder I work, the more luck I seem to have.",
+    "author": "Thomas Jefferson"
+  },
+  {
+    "id": 146,
+    "topic": "love",
+    "label": "Love",
+    "text": "Love isn't something you find. Love is something that finds you.",
+    "author": "Loretta Young"
+  },
+  {
+    "id": 147,
+    "topic": "wisdom",
+    "label": "Wisdom",
+    "text": "Knowing others is intelligence; knowing yourself is true wisdom.",
+    "author": "Lao Tzu"
+  },
+  {
+    "id": 148,
+    "topic": "humor",
+    "label": "Humor",
+    "text": "I don't need anger management. I need people to stop annoying me.",
+    "author": "Unknown"
+  },
+  {
+    "id": 149,
+    "topic": "friendship",
+    "label": "Friendship",
+    "text": "Friendship is the only cement that will ever hold the world together.",
+    "author": "Woodrow Wilson"
+  },
+  {
+    "id": 150,
+    "topic": "inspiration",
+    "label": "Inspiration",
+    "text": "The best way to predict the future is to invent it.",
+    "author": "Alan Kay"
+  },
+  {
+    "id": 151,
+    "topic": "life",
+    "label": "Life",
+    "text": "The two most important days in your life are the day you are born and the day you find out why.",
+    "author": "Mark Twain"
+  },
+  {
+    "id": 152,
+    "topic": "motivation",
+    "label": "Motivation",
+    "text": "The only place where success comes before work is in the dictionary.",
+    "author": "Vidal Sassoon"
+  },
+  {
+    "id": 153,
+    "topic": "success",
+    "label": "Success",
+    "text": "Success is not the key to happiness. Happiness is the key to success.",
+    "author": "Albert Schweitzer"
+  },
+  {
+    "id": 154,
+    "topic": "love",
+    "label": "Love",
+    "text": "A successful marriage requires falling in love many times, always with the same person.",
+    "author": "Mignon McLaughlin"
+  },
+  {
+    "id": 155,
+    "topic": "wisdom",
+    "label": "Wisdom",
+    "text": "The wise man doesn't give the right answers, he poses the right questions.",
+    "author": "Claude Lévi-Strauss"
+  },
+  {
+    "id": 156,
+    "topic": "humor",
+    "label": "Humor",
+    "text": "I'm not short, I'm fun-sized!",
+    "author": "Unknown"
+  },
+  {
+    "id": 157,
+    "topic": "friendship",
+    "label": "Friendship",
+    "text": "A true friend never gets in your way unless you happen to be going down.",
+    "author": "Arnold H. Glasow"
+  },
+  {
+    "id": 158,
+    "topic": "inspiration",
+    "label": "Inspiration",
+    "text": "Your time is limited, don't waste it living someone else's life.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 159,
+    "topic": "life",
+    "label": "Life",
+    "text": "Life is like riding a bicycle. To keep your balance, you must keep moving.",
+    "author": "Albert Einstein"
+  },
+  {
+    "id": 160,
+    "topic": "motivation",
+    "label": "Motivation",
+    "text": "The expert in anything was once a beginner.",
+    "author": "Helen Hayes"
+  },
+  {
+    "id": 161,
+    "topic": "success",
+    "label": "Success",
+    "text": "Opportunities don't happen. You create them.",
+    "author": "Chris Grosser"
+  },
+  {
+    "id": 162,
+    "topic": "love",
+    "label": "Love",
+    "text": "Love is an irresistible desire to be irresistibly desired.",
+    "author": "Robert Frost"
+  },
+  {
+    "id": 163,
+    "topic": "wisdom",
+    "label": "Wisdom",
+    "text": "The only way to make sense out of change is to plunge into it, move with it, and join the dance.",
+    "author": "Alan Watts"
+  },
+  {
+    "id": 164,
+    "topic": "humor",
+    "label": "Humor",
+    "text": "I'm not arguing, I'm just passionately expressing my point of view while completely dismissing yours.",
+    "author": "Unknown"
+  },
+  {
+    "id": 165,
+    "topic": "friendship",
+    "label": "Friendship",
+    "text": "A friend is one who overlooks your broken fence and admires the flowers in your garden.",
+    "author": "Unknown"
+  },
+  {
+    "id": 166,
+    "topic": "inspiration",
+    "label": "Inspiration",
+    "text": "The only person you are destined to become is the person you decide to be.",
+    "author": "Ralph Waldo Emerson"
+  },
+  {
+    "id": 167,
+    "topic": "life",
+    "label": "Life",
+    "text": "Life isn't about finding yourself. Life is about creating yourself.",
+    "author": "George Bernard Shaw"
+  },
+  {
+    "id": 168,
+    "topic": "motivation",
+    "label": "Motivation",
+    "text": "The only limit to our realization of tomorrow will be our doubts of today.",
+    "author": "Franklin D. Roosevelt"
+  },
+  {
+    "id": 169,
+    "topic": "success",
+    "label": "Success",
+    "text": "Success is not in what you have, but who you are.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 170,
+    "topic": "love",
+    "label": "Love",
+    "text": "Love is the master key that opens the gates of happiness.",
+    "author": "Oliver Wendell Holmes"
+  },
+  {
+    "id": 171,
+    "topic": "wisdom",
+    "label": "Wisdom",
+    "text": "Wisdom is not a product of schooling but of the lifelong attempt to acquire it.",
+    "author": "Albert Einstein"
+  },
+  {
+    "id": 172,
+    "topic": "humor",
+    "label": "Humor",
+    "text": "I'm not lazy, I'm on my energy saving mode.",
+    "author": "Unknown"
+  },
+  {
+    "id": 173,
+    "topic": "friendship",
+    "label": "Friendship",
+    "text": "Friends are the family you choose.",
+    "author": "Jess C. Scott"
+  },
+  {
+    "id": 174,
+    "topic": "inspiration",
+    "label": "Inspiration",
+    "text": "What you get by achieving your goals is not as important as what you become by achieving your goals.",
+    "author": "Zig Ziglar"
+  },
+  {
+    "id": 175,
+    "topic": "life",
+    "label": "Life",
+    "text": "Life is a succession of lessons which must be lived to be understood.",
+    "author": "Ralph Waldo Emerson"
+  },
+  {
+    "id": 176,
+    "topic": "motivation",
+    "label": "Motivation",
+    "text": "The only way to achieve the impossible is to believe it is possible.",
+    "author": "Charles Kingsleigh"
+  },
+  {
+    "id": 177,
+    "topic": "success",
+    "label": "Success",
+    "text": "Success isn't about how much money you make, it's about the difference you make in people's lives.",
+    "author": "Michelle Obama"
+  },
+  {
+    "id": 178,
+    "topic": "love",
+    "label": "Love",
+    "text": "The greatest happiness of life is the conviction that we are loved.",
+    "author": "Victor Hugo"
+  },
+  {
+    "id": 179,
+    "topic": "wisdom",
+    "label": "Wisdom",
+    "text": "Wisdom is the daughter of experience.",
+    "author": "Leonardo da Vinci"
+  },
+  {
+    "id": 180,
+    "topic": "humor",
+    "label": "Humor",
+    "text": "I'm not arguing, I'm just explaining why I'm right.",
+    "author": "Unknown"
+  },
+  {
+    "id": 181,
+    "topic": "friendship",
+    "label": "Friendship",
+    "text": "Walking with a friend in the dark is better than walking alone in the light.",
+    "author": "Helen Keller"
+  },
+  {
+    "id": 182,
+    "topic": "inspiration",
+    "label": "Inspiration",
+    "text": "The biggest adventure you can take is to live the life of your dreams.",
+    "author": "Oprah Winfrey"
+  },
+  {
+    "id": 183,
+    "topic": "life",
+    "label": "Life",
+    "text": "Life is short, and it's up to you to make it sweet.",
+    "author": "Sarah Louise Delany"
+  },
+  {
+    "id": 184,
+    "topic": "motivation",
+    "label": "Motivation",
+    "text": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 185,
+    "topic": "success",
+    "label": "Success",
+    "text": "Success is getting what you want. Happiness is wanting what you get.",
+    "author": "Dale Carnegie"
+  },
+  {
+    "id": 186,
+    "topic": "love",
+    "label": "Love",
+    "text": "Love is the flower you've got to let grow.",
+    "author": "John Lennon"
+  },
+  {
+    "id": 187,
+    "topic": "wisdom",
+    "label": "Wisdom",
+    "text": "Wisdom begins in wonder.",
+    "author": "Socrates"
+  },
+  {
+    "id": 188,
+    "topic": "humor",
+    "label": "Humor",
+    "text": "I'm not lazy, I'm just very relaxed.",
+    "author": "Unknown"
+  },
+  {
+    "id": 189,
+    "topic": "friendship",
+    "label": "Friendship",
+    "text": "A good friend is like a four-leaf clover: hard to find and lucky to have.",
+    "author": "Irish Proverb"
+  },
+  {
+    "id": 190,
+    "topic": "inspiration",
+    "label": "Inspiration",
+    "text": "The best revenge is massive success.",
+    "author": "Frank Sinatra"
+  },
+  {
+    "id": 191,
+    "topic": "life",
+    "label": "Life",
+    "text": "Life is a journey that must be traveled no matter how bad the roads and accommodations.",
+    "author": "Oliver Goldsmith"
+  },
+  {
+    "id": 192,
+    "topic": "motivation",
+    "label": "Motivation",
+    "text": "The only place where your dream becomes impossible is in your own thinking.",
+    "author": "Robert H. Schuller"
+  },
+  {
+    "id": 193,
+    "topic": "success",
+    "label": "Success",
+    "text": "Success is the progressive realization of a worthy goal or ideal.",
+    "author": "Earl Nightingale"
+  },
+  {
+    "id": 194,
+    "topic": "love",
+    "label": "Love",
+    "text": "Love is the greatest refreshment in life.",
+    "author": "Pablo Picasso"
+  },
+  {
+    "id": 195,
+    "topic": "wisdom",
+    "label": "Wisdom",
+    "text": "Wisdom is the reward for surviving our own stupidity.",
+    "author": "Brian Rathbone"
+  },
+  {
+    "id": 196,
+    "topic": "humor",
+    "label": "Humor",
+    "text": "I'm not short, I'm just more down to earth than most people.",
+    "author": "Unknown"
+  },
+  {
+    "id": 197,
+    "topic": "friendship",
+    "label": "Friendship",
+    "text": "Friendship is the golden thread that ties the heart of all the world.",
+    "author": "John Evelyn"
+  },
+  {
+    "id": 198,
+    "topic": "inspiration",
+    "label": "Inspiration",
+    "text": "The only thing standing between you and your goal is the story you keep telling yourself.",
+    "author": "Jordan Belfort"
+  },
+  {
+    "id": 199,
+    "topic": "life",
+    "label": "Life",
+    "text": "Life is either a great adventure or nothing.",
+    "author": "Helen Keller"
+  },
+  {
+    "id": 200,
+    "topic": "friendship",
+    "label": "Friendship",
+    "text": "A friend is someone who knows all about you and still loves you.",
+    "author": "Elbert Hubbard"
   }
 ]
