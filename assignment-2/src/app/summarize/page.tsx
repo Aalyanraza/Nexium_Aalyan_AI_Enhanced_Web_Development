@@ -251,7 +251,6 @@ const dictionary: Record<string, string> = {
   "real": "حقیقی",
   "fake": "جعلی",
   "whole": "پورا",
-  "part": "حصہ",
   "front": "سامنے",
   "back": "پیچھے",
   "left": "بائیں",
