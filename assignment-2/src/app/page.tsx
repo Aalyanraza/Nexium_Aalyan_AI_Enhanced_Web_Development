@@ -34,6 +34,11 @@ export default function Home() {
               Summarize
             </Button>
           </Link>
+          <Link href="/viewBlog">
+            <Button className="shadow-lg hover:shadow-xl transition-shadow text-2xl px-6 py-5 hover:scale-115">
+              View Blogs
+            </Button>
+          </Link>
         </div>
 
         {/* Review Cards */}

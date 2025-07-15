@@ -5,16 +5,8 @@ import { Button } from "@/components/ui/button";
 import { Switch } from "@/components/ui/switch";
 import Link from "next/link";
 
-export default function SummarizePage() {
-  const [url, setUrl] = useState("");
-  const [summary, setSummary] = useState<string[] | null>(null);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState("");
-  const [showUrdu, setShowUrdu] = useState(false);
-
-  // ✅ Basic English-to-Urdu dictionary
-  
-  const dictionary: Record<string, string> = {
+// Optional: basic translation dictionary
+const dictionary: Record<string, string> = {
     // Basic vocabulary
     "the": "کی",
     "and": "اور",
@@ -762,6 +754,13 @@ export default function SummarizePage() {
     "researcher": "محقق",    
     };
 
+export default function ViewBlogPage() {
+  const [url, setUrl] = useState("");
+  const [blogContent, setBlogContent] = useState<string | null>(null);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+  const [showUrdu, setShowUrdu] = useState(false);
+
   const translateToUrdu = (text: string): string => {
     return text
       .split(" ")
@@ -769,29 +768,27 @@ export default function SummarizePage() {
       .join(" ");
   };
 
-  const handleSummarize = async () => {
+  const handleViewBlog = async () => {
     setLoading(true);
     setError("");
-    setSummary(null);
+    setBlogContent(null);
 
     try {
-      const response = await fetch("/api/scrape-and-summarize", {
+      const response = await fetch("/api/scrap", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ url }),
       });
 
       const data = await response.json();
 
-      if (!response.ok || !data.summary) {
-        throw new Error("Failed to fetch or summarize content.");
+      if (!response.ok || !data.content) {
+        throw new Error(data.error || "Something went wrong.");
       }
 
-      setSummary(data.summary);
-    } catch (err) {
-      setError("Failed to summarize blog.");
+      setBlogContent(data.content);
+    } catch (err: any) {
+      setError(err.message || "Failed to fetch blog content.");
     } finally {
       setLoading(false);
     }
@@ -805,9 +802,9 @@ export default function SummarizePage() {
         aria-hidden="true"
       />
 
-      {/* Main Content */}
+      {/* Input Card */}
       <div className="relative z-10 w-full max-w-md space-y-4 shadow-lg p-6 rounded-lg bg-white/90 backdrop-blur">
-        <h1 className="text-4xl font-bold text-center">Summarize a Blog</h1>
+        <h1 className="text-4xl font-bold text-center">View a Blog</h1>
 
         <Input
           placeholder="Enter blog URL..."
@@ -816,18 +813,18 @@ export default function SummarizePage() {
           className="shadow-inner"
         />
         <Button
-          onClick={handleSummarize}
+          onClick={handleViewBlog}
           className="w-full shadow-md"
           disabled={loading}
         >
-          {loading ? "Summarizing..." : "Generate Summary"}
+          {loading ? "Loading..." : "View Blog"}
         </Button>
 
         {error && <p className="text-red-500 text-sm">{error}</p>}
       </div>
 
-      {/* Summary Card */}
-      {summary && (
+      {/* Blog Display */}
+      {blogContent && (
         <div className="relative z-10 max-w-2xl p-6 mt-6 bg-white/90 shadow-md rounded-lg border backdrop-blur transform transition duration-300 hover:scale-105 hover:shadow-lg">
           {/* Urdu Toggle */}
           <div className="absolute top-4 right-4 flex items-center gap-2">
@@ -835,14 +832,10 @@ export default function SummarizePage() {
             <Switch checked={showUrdu} onCheckedChange={setShowUrdu} />
           </div>
 
-          <h2 className="text-xl font-semibold mb-2">Summary:</h2>
-          <ul className="list-disc list-inside text-gray-700 space-y-2">
-            {(showUrdu ? summary.map(translateToUrdu) : summary).map(
-              (point, index) => (
-                <li key={index}>{point}</li>
-              )
-            )}
-          </ul>
+          <h2 className="text-xl font-semibold mb-4">Blog Content:</h2>
+          <p className="text-gray-800 whitespace-pre-line leading-relaxed">
+            {showUrdu ? translateToUrdu(blogContent) : blogContent}
+          </p>
         </div>
       )}
 
