@@ -51,6 +51,7 @@ export async function POST(req: Request) {
       );
     }
 
+    //Useless Comment
     // Save blog content to MongoDB
     const client = await clientPromise;
     const db = client.db("blogDB"); // replace with your DB name
