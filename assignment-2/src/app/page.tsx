@@ -34,11 +34,6 @@ export default function Home() {
               Summarize
             </Button>
           </Link>
-          <Link href="/translate">
-            <Button className="shadow-xl hover:shadow-xl transition-shadow text-2xl px-6 py-5 hover:scale-115">
-              Translate
-            </Button>
-          </Link>
         </div>
 
         {/* Review Cards */}
