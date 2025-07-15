@@ -11,6 +11,8 @@ export default function SummarizePage() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [showUrdu, setShowUrdu] = useState(false);
+  const [success, setSuccess] = useState("");
+
 
   // ✅ Basic English-to-Urdu dictionary
   
@@ -770,6 +772,7 @@ export default function SummarizePage() {
   };
 
   const handleSummarize = async () => {
+    setSuccess("");
     setLoading(true);
     setError("");
     setSummary(null);
@@ -788,8 +791,9 @@ export default function SummarizePage() {
       if (!response.ok || !data.summary) {
         throw new Error("Failed to fetch or summarize content.");
       }
+        setSummary(data.summary);
+        setSuccess("✅ Summary saved to Supabase and blog saved to MongoDB.");
 
-      setSummary(data.summary);
     } catch (err) {
       setError("Failed to summarize blog.");
     } finally {
@@ -824,6 +828,7 @@ export default function SummarizePage() {
         </Button>
 
         {error && <p className="text-red-500 text-sm">{error}</p>}
+        {success && <p className="text-green-600 text-sm">{success}</p>}
       </div>
 
       {/* Summary Card */}
@@ -835,7 +840,7 @@ export default function SummarizePage() {
             <Switch checked={showUrdu} onCheckedChange={setShowUrdu} />
           </div>
 
-          <h2 className="text-xl font-semibold mb-2">Summary:</h2>
+          <h2 className="text-xl font-semibold mb-2 text-center">Summary:</h2>
           <ul className="list-disc list-inside text-gray-700 space-y-2">
             {(showUrdu ? summary.map(translateToUrdu) : summary).map(
               (point, index) => (

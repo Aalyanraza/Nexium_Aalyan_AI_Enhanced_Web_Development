@@ -832,7 +832,7 @@ export default function ViewBlogPage() {
             <Switch checked={showUrdu} onCheckedChange={setShowUrdu} />
           </div>
 
-          <h2 className="text-xl font-semibold mb-4">Blog Content:</h2>
+          <h2 className="text-xl font-semibold mb-4 text-center">Blog Content:</h2>
           <p className="text-gray-800 whitespace-pre-line leading-relaxed">
             {showUrdu ? translateToUrdu(blogContent) : blogContent}
           </p>
