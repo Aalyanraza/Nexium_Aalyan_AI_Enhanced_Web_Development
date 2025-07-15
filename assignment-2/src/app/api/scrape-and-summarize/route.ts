@@ -3,6 +3,7 @@ import axios from "axios";
 import { JSDOM } from "jsdom";
 import { Readability } from "@mozilla/readability";
 import { supabase } from "@/lib/supabaseClient";
+import clientPromise from "@/lib/mongodb";
 
 export async function POST(req: Request) {
   try {
@@ -37,13 +38,29 @@ export async function POST(req: Request) {
 
     const summary = summarySentences.join(". ");
 
-    // ✅ Save to Supabase
-    const { error } = await supabase.from("summaries").insert([{ url, summary }]);
+    // Save summary to Supabase
+    const { error: supabaseError } = await supabase
+      .from("summaries")
+      .insert([{ url, summary }]);
 
-    if (error) {
-      console.error("Supabase insert error:", error.message);
-      return NextResponse.json({ error: "Failed to save summary to Supabase." }, { status: 500 });
+    if (supabaseError) {
+      console.error("Supabase insert error:", supabaseError.message);
+      return NextResponse.json(
+        { error: "Failed to save summary to Supabase." },
+        { status: 500 }
+      );
     }
+
+    // Save blog content to MongoDB
+    const client = await clientPromise;
+    const db = client.db("blogDB"); // replace with your DB name
+    const blogs = db.collection("blogs");
+
+    await blogs.insertOne({
+      url,
+      content: article.textContent,
+      createdAt: new Date(),
+    });
 
     return NextResponse.json({ summary: summarySentences });
   } catch (error: any) {
