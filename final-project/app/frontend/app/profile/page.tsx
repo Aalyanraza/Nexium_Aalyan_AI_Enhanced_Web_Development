@@ -12,9 +12,16 @@ const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
 );
 
+interface User {
+  id: string;
+  email?: string;
+  created_at?: string;
+  email_confirmed_at?: string;
+}
+
 export default function Profile() {
   const router = useRouter();
-  const [user, setUser] = useState<any>(null);
+  const [user, setUser] = useState<User | null>(null);
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
   const [message, setMessage] = useState('');
@@ -38,8 +45,16 @@ export default function Profile() {
         return;
       }
       
-      setUser(user);
+      // Convert Supabase user to our User interface
+      const userData: User = {
+        id: user.id,
+        email: user.email || undefined,
+        created_at: user.created_at || undefined,
+        email_confirmed_at: user.email_confirmed_at || undefined,
+      };
       
+      setUser(userData);
+        
       // Load user profile data from your backend
       try {
         const response = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/api/get-profile?userId=${user.id}`);
@@ -320,7 +335,7 @@ export default function Profile() {
                 <div>
                   <p className="text-sm text-gray-600">Member Since</p>
                   <p className="font-medium text-gray-900">
-                    {new Date(user?.created_at).toLocaleDateString()}
+                    {new Date(user?.created_at || new Date()).toLocaleDateString()}
                   </p>
                 </div>
                 <div>

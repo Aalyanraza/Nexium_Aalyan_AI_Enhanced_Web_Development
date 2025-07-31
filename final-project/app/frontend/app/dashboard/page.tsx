@@ -6,6 +6,13 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { createClient } from '@supabase/supabase-js';
 
+interface User {
+  id: string;
+  email?: string;
+  created_at?: string;
+}
+
+
 // Initialize Supabase client
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -14,24 +21,31 @@ const supabase = createClient(
 
 export default function Dashboard() {
   const router = useRouter();
-  const [user, setUser] = useState<any>(null);
+  const [user, setUser] = useState<User | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const checkAuth = async () => {
-      const { data: { user }, error } = await supabase.auth.getUser();
-      
-      if (error || !user) {
-        router.push('/login');
-        return;
-      }
-      
-      setUser(user);
-      setLoading(false);
-    };
+ const checkAuth = async () => {
+   const { data: { user }, error } = await supabase.auth.getUser();
+   
+   if (error || !user) {
+     router.push('/login');
+     return;
+   }
+   
+   // Convert Supabase user to our User interface
+   const userData: User = {
+     id: user.id,
+     email: user.email || undefined,
+     created_at: user.created_at || undefined,
+   };
+   
+   setUser(userData);
+   setLoading(false);
+ };
 
-    checkAuth();
-  }, [router]);
+ checkAuth();
+}, [router]);
 
   const handleSignOut = async () => {
     await supabase.auth.signOut();

@@ -14,8 +14,16 @@ const supabase = createClient(
 
 interface User {
   id: string;
-  name: string;
-  email: string;
+  name?: string;
+  email?: string;
+}
+
+interface Suggestions {
+  summary?: string;
+  improvements?: string[];
+  skillsToAdd?: string[];
+  experienceRewrites?: string[];
+  keywords?: string[];
 }
 
 export default function TailorPage() {
@@ -29,7 +37,7 @@ export default function TailorPage() {
   // Form state
   const [resumeFile, setResumeFile] = useState<File | null>(null);
   const [jobDescription, setJobDescription] = useState('');
-  const [suggestions, setSuggestions] = useState<string[]>([]);
+  const [suggestions, setSuggestions] = useState<Suggestions | null>(null);
   const [showResults, setShowResults] = useState(false);
 
   useEffect(() => {
@@ -41,7 +49,14 @@ export default function TailorPage() {
         return;
       }
       
-      setUser(user);
+      // Convert Supabase user to our User interface
+      const userData: User = {
+        id: user.id,
+        name: user.user_metadata?.name || user.user_metadata?.full_name || undefined,
+        email: user.email || undefined,
+      };
+      
+      setUser(userData);
       setLoading(false);
     };
 
@@ -103,7 +118,7 @@ export default function TailorPage() {
       }
 
       // Extract suggestions from the nested structure
-      let extractedSuggestions;
+      let extractedSuggestions: Suggestions;
       
       // Check if the response has the nested message.content structure
       if (data.message && data.message.content && data.message.content.suggestions) {
@@ -281,7 +296,7 @@ export default function TailorPage() {
             <h3 className="font-semibold text-blue-900 mb-3">How it works</h3>
             <ul className="text-sm text-blue-800 space-y-2">
               <li>• Upload your current resume in PDF format</li>
-              <li>• Provide the job description you're applying for</li>
+              <li>• Provide the job description you re applying for</li>
               <li>• Our AI analyzes both and optimizes your resume</li>
               <li>• View your personalized suggestions below</li>
             </ul>

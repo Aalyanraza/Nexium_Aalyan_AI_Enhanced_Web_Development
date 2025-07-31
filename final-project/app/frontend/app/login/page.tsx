@@ -35,6 +35,7 @@ export default function Login() {
         setIsSuccess(true);
       }
     } catch (error) {
+      console.error('Error:', error);
       setMessage('An unexpected error occurred. Please try again.');
       setIsSuccess(false);
     } finally {
