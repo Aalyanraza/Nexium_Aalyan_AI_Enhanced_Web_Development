@@ -31,7 +31,8 @@ app.post('/api/send-magic-link', async (req, res) => {
     const data = await sendMagicLink(email);
     res.json({ success: true, data });
   } catch (error) {
-    res.status(400).json({ success: false, error: error.message });
+    const message = error instanceof Error ? error.message : 'Unknown error';
+    res.status(400).json({ success: false, error: message });
   }
 });
 
