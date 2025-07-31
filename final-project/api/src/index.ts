@@ -89,8 +89,6 @@ app.post('/api/tailor-resume', upload.single('resume'), async (req: Request, res
       headers: form.getHeaders(),
     });
 
-    // Log response from n8n
-    console.log('🔗 n8n Response:\n', JSON.stringify(response.data, null, 2));
 
 
     // Forward response from n8n

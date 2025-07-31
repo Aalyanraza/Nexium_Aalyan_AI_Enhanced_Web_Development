@@ -12,9 +12,15 @@ const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
 );
 
+interface User {
+  id: string;
+  name: string;
+  email: string;
+}
+
 export default function TailorPage() {
   const router = useRouter();
-  const [user, setUser] = useState<any>(null);
+  const [user, setUser] = useState<User | null>(null);
   const [loading, setLoading] = useState(true);
   const [isProcessing, setIsProcessing] = useState(false);
   const [message, setMessage] = useState('');
@@ -23,7 +29,7 @@ export default function TailorPage() {
   // Form state
   const [resumeFile, setResumeFile] = useState<File | null>(null);
   const [jobDescription, setJobDescription] = useState('');
-  const [suggestions, setSuggestions] = useState<any>(null);
+  const [suggestions, setSuggestions] = useState<string[]>([]);
   const [showResults, setShowResults] = useState(false);
 
   useEffect(() => {
@@ -90,7 +96,7 @@ export default function TailorPage() {
       });
 
       const data = await response.json();
-      console.log('Full backend response:', data);
+      
 
       if (!response.ok) {
         throw new Error(data.error || 'Failed to process resume');
@@ -121,7 +127,7 @@ export default function TailorPage() {
       setIsSuccess(true);
       
       // Log results to terminal for debugging
-      console.log('Extracted suggestions:', extractedSuggestions);
+      
 
     } catch (error) {
       console.error('Resume tailoring error:', error);
@@ -423,7 +429,7 @@ export default function TailorPage() {
               <div className="flex gap-4 pt-6 border-t border-gray-200">
                 <button 
                   onClick={() => {
-                    console.log('Download button clicked - suggestions:', suggestions);
+                    
                     // Create a text file with all suggestions
                     const content = `Resume Processing Results\n\n` +
                       `Summary: ${suggestions.summary && suggestions.summary !== "Brief summary of analysis" ? suggestions.summary : 'N/A'}\n\n` +
@@ -448,7 +454,7 @@ export default function TailorPage() {
                 </button>
                 <button 
                   onClick={() => {
-                    console.log('Save button clicked - suggestions:', suggestions);
+                    
                     // Here you would typically save to a database
                     // For now, just log to console and show a message
                     setMessage('Resume suggestions saved to your account!');
