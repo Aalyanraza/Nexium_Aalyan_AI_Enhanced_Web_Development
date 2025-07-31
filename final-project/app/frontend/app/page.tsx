@@ -193,7 +193,7 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400 text-sm">
-            © 2024 Resume Tailor. All rights reserved.
+            © 2025 Resume Tailor. All rights reserved.
           </div>
         </div>
       </footer>

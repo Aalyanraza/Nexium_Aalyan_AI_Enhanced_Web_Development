@@ -22,17 +22,25 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-  children,
+ children,
 }: Readonly<{
-  children: React.ReactNode;
+ children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
-    </html>
-  );
+ return (
+   <html lang="en">
+     <body
+       className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+     >
+       {children}
+       <footer className="bg-gray-900 text-white py-4">
+         <div className="max-w-7xl mx-auto px-6 text-center">
+           <p className="text-sm">
+             Created by <span className="font-semibold">Aalyan Raza</span> for{' '}
+             <span className="font-semibold">Nexium</span>
+           </p>
+         </div>
+       </footer>
+     </body>
+   </html>
+ );
 }

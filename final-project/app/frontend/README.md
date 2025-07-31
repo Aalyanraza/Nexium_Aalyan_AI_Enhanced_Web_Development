@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Frontend - Project Name
 
-## Getting Started
+This is the frontend for [Project Name], built with [React / Vue / etc.].
 
-First, run the development server:
+## 🔧 Tech Stack
+
+- Framework: React / Vue / Next.js
+- Styling: Tailwind / CSS Modules / SASS / Styled Components
+- State Management: Redux / Zustand / Context API
+- API: Axios / Fetch
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js vXX+
+
+### Installation
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+cd frontend
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Running Locally
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Environment Variables
 
-## Learn More
+Create a `.env` file in `frontend/` with the following keys:
 
-To learn more about Next.js, take a look at the following resources:
+```env
+REACT_APP_API_URL=http://localhost:5000/api
+REACT_APP_SOME_KEY=your_value
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🧪 Running Tests
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run test
+```
 
-## Deploy on Vercel
+### 🧱 Folder Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+frontend/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── hooks/
+│   ├── services/
+│   └── App.jsx
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### ✅ Available Scripts
+
+- `npm start` — Runs development server
+- `npm run build` — Builds production version
+- `npm run test` — Runs unit tests
