@@ -2,6 +2,10 @@ import express, { Request } from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import multer from 'multer';
+import axios from 'axios';
+import FormData from 'form-data';
+import pdfParse from 'pdf-parse';
+
 import { sendMagicLink } from './auth';
 import { connectToMongo } from './lib/mongo';
 import { User } from './models/User';
@@ -56,8 +60,8 @@ interface MulterRequest extends Request {
   file: Express.Multer.File;
 }
 
-// Tailor Resume Endpoint
-app.post('/api/tailor-resume', upload.single('resume'), (req: Request, res) => {
+
+app.post('/api/tailor-resume', upload.single('resume'), async (req: Request, res) => {
   const multerReq = req as MulterRequest;
   const { jobDescription, userId } = multerReq.body;
 
@@ -65,19 +69,39 @@ app.post('/api/tailor-resume', upload.single('resume'), (req: Request, res) => {
     return res.status(400).json({ error: 'Missing resume or job description' });
   }
 
-  // Mock response
-  res.json({
-    suggestions: {
-      summary: 'Received the job description successfully.',
-      improvements: [],
-      skillsToAdd: [],
-      experienceRewrites: [],
-      keywords: [],
-      echoedJobDescription: jobDescription,
-      userId,
-    },
-  });
+  try {
+    // Extract text from PDF
+    const resumeBuffer = Buffer.from(multerReq.file.buffer);
+    const pdfData = await pdfParse(resumeBuffer);
+    const resumeText = pdfData.text;
+
+    // Build form for n8n
+    const form = new FormData();
+    form.append('resumeText', resumeText);
+    form.append('jobDescription', jobDescription);
+    form.append('userId', userId);
+
+    const n8nEndpoint =
+      process.env.N8N_WEBHOOK_URL || 'https://aalyan.app.n8n.cloud/webhook/tailor-resume';
+
+    // Send data to n8n
+    const response = await axios.post(n8nEndpoint, form, {
+      headers: form.getHeaders(),
+    });
+
+    // Log response from n8n
+    console.log('🔗 n8n Response:\n', JSON.stringify(response.data, null, 2));
+
+
+    // Forward response from n8n
+    res.json(response.data);
+  } catch (err) {
+    console.error('❌ Error in /api/tailor-resume:', err);
+    res.status(500).json({ error: 'Failed to process resume with AI' });
+  }
 });
+
+
 
 // Start Server
 const PORT = process.env.PORT || 4000;
